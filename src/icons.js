@@ -267,9 +267,9 @@ export const GoogleIcon = ({ disabled, type }) => (
 
 GoogleIcon.propTypes = {
   disabled: PropTypes.bool,
-  type: PropTypes.oneOf(['light', 'dark'])
+  type: PropTypes.oneOf(['light', 'dark']),
 }
 
 GoogleIcon.defaultProps = {
-  type: 'dark'
+  type: 'dark',
 }

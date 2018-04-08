@@ -11,19 +11,19 @@ const baseStyle = {
   borderRadius: '1px',
   transition: 'background-color .218s, border-color .218s, box-shadow .218s',
   fontFamily: 'Roboto,arial,sans-serif',
-  cursor: 'pointer'
+  cursor: 'pointer',
 }
 
 export const darkStyle = {
   backgroundColor: '#4285f4',
   color: '#fff',
-  ...baseStyle
+  ...baseStyle,
 }
 
 export const lightStyle = {
   backgroundColor: '#fff',
   color: 'rgba(0,0,0,.54)',
-  ...baseStyle
+  ...baseStyle,
 }
 
 export const iconStyle = {
@@ -37,18 +37,18 @@ export const iconStyle = {
   float: 'left',
   backgroundColor: '#fff',
   borderRadius: '1px',
-  whiteSpace: 'nowrap'
+  whiteSpace: 'nowrap',
 }
 
 export const svgStyle = {
   width: '48px',
   height: '48px',
-  display: 'block'
+  display: 'block',
 }
 
 export const hoverStyle = {
   boxShadow: '0 0 3px 3px rgba(66,133,244,.3)',
-  transition: 'background-color .218s, border-color .218s, box-shadow .218s'
+  transition: 'background-color .218s, border-color .218s, box-shadow .218s',
 }
 
 // export const pressedStyle = {
@@ -58,9 +58,9 @@ export const hoverStyle = {
 export const disabledStyle = {
   backgroundColor: 'rgba(37, 5, 5, .08)',
   color: 'rgba(0, 0, 0, .40)',
-  cursor: 'not-allowed'
+  cursor: 'not-allowed',
 }
 
 export const disabledIconStyle = {
-  backgroundColor: 'transparent'
+  backgroundColor: 'transparent',
 }

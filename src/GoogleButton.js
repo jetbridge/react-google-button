@@ -9,18 +9,18 @@ export default class GoogleButton extends PureComponent {
     disabled: PropTypes.bool,
     onClick: PropTypes.func,
     type: PropTypes.oneOf(['light', 'dark']),
-    style: PropTypes.object
+    style: PropTypes.object,
   }
 
   static defaultProps = {
     label: 'Sign in with Google',
     disabled: false,
     type: 'dark',
-    onClick: () => {}
+    onClick: () => {},
   }
 
   state = {
-    hovered: false
+    hovered: false,
   }
 
   getStyle = propStyles => {
